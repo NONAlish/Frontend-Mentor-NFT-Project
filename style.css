@@ -1,0 +1,259 @@
+body{
+    background-color: #0D192C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.container{
+    width: 350px;
+    height: 596px;
+    background-color: #15263F;
+    border-radius: 8px;
+}
+.row{
+    width: 302px;
+    padding: 24px;
+}
+
+.h1{
+    color: #FFFFFF;
+    font-size: 22px;
+    font-family: Outfit;
+    font-weight: 600;
+}
+
+.main_text{
+    color: #8BACD9;
+    font-size: 18px;
+    width: 302px;
+    font-family: Outfit;
+}
+.under_text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.coin_div{
+    display: flex;
+    margin: 0;
+}
+.coin_p{
+    padding-left: 8px;
+    margin: 0;
+    color: #00FFF8;
+    font-size: 16px;
+}
+
+.days_time{
+    display: flex;
+    margin: 0;
+}
+.second_scg{
+    padding-top: 1px;
+}
+.days_left{
+    padding-left: 8px;
+    margin: 0;
+    color: #8BACD9;
+    font-size: 16px;
+    font-family: Outfit;
+}
+.line{
+    padding-top: 1px;
+    margin-top: 20px;
+    background-color: #2E405A;
+}
+
+.creator{
+    display: flex;
+    margin-top: 20px;
+}
+
+.person{
+    width: 33px;
+    height: 33px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.who_createor{
+    margin: 0;
+    padding-top: 8px;
+    padding-left: 10px;
+    color: #FFFFFF;
+}
+.who_createor_span{
+    color: #8BACD9;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+.link:hover{
+    color: #00FFF8;
+}
+
+/* desktop active */
+.img{
+    position: relative;
+}
+.svg_eye{
+    display: flex;
+    position: absolute;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.cube{
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+}
+.blue{
+    position: absolute;
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    background-color: #00FFF8;
+    opacity: 0;
+}
+.img:hover .svg_eye {
+    opacity: 1;
+}
+.img:hover .blue {
+    opacity: 0.5;
+}
+
+/* Mobile */
+
+@media (max-width: 375px) {
+    body{
+        background-color: #0D192C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+    }
+    .container{
+        width: 327px;
+        height: 543px;
+        background-color: #15263F;
+        border-radius: 8px;
+    }
+    .row{
+        width: 278px;
+        padding: 24px;
+    }
+    
+    .h1{
+        color: #FFFFFF;
+        font-size: 22px;
+        font-family: Outfit;
+        font-weight: 600;
+    }
+    
+    .main_text{
+        color: #8BACD9;
+        font-size: 18px;
+        width: 302px;
+        font-family: Outfit;
+    }
+    .under_text{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .coin_div{
+        display: flex;
+        margin: 0;
+    }
+    .coin_p{
+        padding-left: 8px;
+        margin: 0;
+        color: #00FFF8;
+        font-size: 16px;
+    }
+    
+    .days_time{
+        display: flex;
+        margin: 0;
+    }
+    .second_scg{
+        padding-top: 1px;
+    }
+    .days_left{
+        padding-left: 8px;
+        margin: 0;
+        color: #8BACD9;
+        font-size: 16px;
+        font-family: Outfit;
+    }
+    .line{
+        padding-top: 1px;
+        margin-top: 14px;
+        background-color: #2E405A;
+    }
+    
+    .creator{
+        display: flex;
+        margin-top: 14px;
+    }
+    
+    .person{
+        width: 33px;
+        height: 33px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+    .who_createor{
+        margin: 0;
+        padding-top: 8px;
+        padding-left: 10px;
+        color: #FFFFFF;
+    }
+    .who_createor_span{
+        color: #8BACD9;
+    }
+    .link{
+        text-decoration: none;
+        color: inherit;
+    }
+    .link:hover{
+        color: #00FFF8;
+    }
+    .img{
+        position: relative;
+    }
+    .svg_eye{
+        display: flex;
+        position: absolute;
+        opacity: 0;
+        justify-content: center;
+        align-items: center;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .cube{
+        width: 278px;
+        height: 278px;
+        border-radius: 8px;
+    }
+    .blue{
+        position: absolute;
+        width: 302px;
+        height: 302px;
+        border-radius: 8px;
+        background-color: #00FFF8;
+        opacity: 0;
+    }
+    .img:hover .svg_eye {
+        opacity: 1;
+    }
+    .img:hover .blue {
+        opacity: 0.5;
+    }
+}
